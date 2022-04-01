@@ -1,0 +1,19 @@
+git config --global user.name ZAKIR-HABIB
+git config --global user.email "ZAKIR-HABIB@github.com"
+
+cd "D:\freelancing\Coursera\courses\Code With Harry\CSS\P-1, Gym Man. System"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status
+git remote add origin git@github.com:ZAKIR-HABIB/P-1-Gym-Man.-System.git <ssh ,not https>
+ssh-keygen -t ed25519 -C "ZAKIR-HABIB@github.com"
+		SHA256:abJP1exaYJxht3ApKjLvJCHnPkDuZnPAkxz6VyJ2fjM ZAKIR-HABIB@github.com <key generated>
+
+cat  /c/Users/sars/.ssh/id_ed25519.pub
+		ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDGIL4yaazFV1kqw2vNlGpAyxwRhEiJ6rMQRj33WzPq2 ZAKIR-HABIB@github.com
+
+git push origin master
+
+<Your project is pushed on github>
